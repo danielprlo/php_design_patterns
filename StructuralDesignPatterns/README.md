@@ -9,4 +9,3 @@
 ## Decorator
 - Adds new behaviours to existing objects inside wrappers
 
-### Use when

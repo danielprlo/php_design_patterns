@@ -2,16 +2,21 @@
 
 Structure
 
-- Interface Share
-    - Client (Diagram)
-    - Used by the client to execute the action
+- Base component interface
+    - Pizza
+    - Contains the description of the function that will be called recursively 
     
-- WhatsAppShare
-    - Adaptee (Diagram)
-    - Service ww want to adapt with our client
+- Concrete component
+    - Margherita and VeggieParadise
+    - implements base component interface
     
-- WhatsAppShareAdapter
-    - Adapter (Diagram)
-    - Adapter that will create the compatibility
+- Base decorator
+    - PizzaToppings
+    - implements base component interface
+    - implements the constructor, accepting concrete components
+  
+- Concrete decorator
+  - ExtraCheese and Jalapeno
+  - The wrap functionalities, which call the parent function + returning their own value
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/e/e5/W3sDesign_Adapter_Design_Pattern_UML.jpg)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Decorator_UML_class_diagram.svg/1920px-Decorator_UML_class_diagram.svg.png)
