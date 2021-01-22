@@ -34,4 +34,8 @@ Design patterns are aim to provide low-level solutions, address commonly object 
 
 __* designs included int this repository__
 
+## Testing the patterns
+just run the index.php inside each pattern folder to see the example.
+``php index.php``
+
 
